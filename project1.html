@@ -10,51 +10,177 @@
 </head>
 <body>
   <header>
-    <nav>
-        <nav>
-            <a href="index.html"><i class="fas fa-home"></i> Home</a>
-            <a href="#projectDetails"><i class="fas fa-info-circle"></i> Project Details</a>
-          </nav>
-          
+    <nav class="main-nav">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2><a href="index.html">Carlos Ocampo</a></h2>
+        </div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="#overview">Overview</a>
+          <a href="#features">Features</a>
+          <a href="#videoDemo">Demo</a>
+        </div>
+      </div>
     </nav>
-    <div id="projectHeader">
-      <h1 id="projectTitle">Cosmo Ranger</h1>
-      <p id="projectDescription"></p>
+    
+    <div class="project-hero">
+      <div class="container">
+        <div class="project-header">
+          <h1 class="project-title">Cosmo Ranger</h1>
+          <p class="project-subtitle">3D Third-Person RPG Prototype (Unity, C#)</p>
+          <p class="project-description">Multi-planet adventure game showcasing advanced gameplay systems and modular architecture</p>
+          
+          <div class="project-meta">
+            <div class="meta-item">
+              <span class="meta-label">Duration</span>
+              <span class="meta-value">3 months</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Team Size</span>
+              <span class="meta-value">3 developers</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Role</span>
+              <span class="meta-value">Team Lead & Gameplay Programmer</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Status</span>
+              <span class="meta-value">Complete</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <section id="gameReview">
-    <div class="review-text">
-      <h2>Key Features:</h2>
-      <ul id="projectDetails">
-        <li>Inventory System with Scriptable Object</li>
-        <li>Interactable System using Interface</li>
-        <li>UI Design for immersive gameplay experience</li>
-        <li>Load and Save Inventory Functionality for player progression</li>
-        <li>Shop System for purchasing items and upgrades</li>
-      </ul>
-    </div>
-    <div class="game-image">
-      <img src="img/cosmo_ranger_game2.png" alt="Cosmo Ranger Gameplay">
-    </div>
-  </section>
-  
-  <section id="gameReview">
-    <div class="game-image">
-        <img src="img/combat_photo.png" alt="Cosmo Ranger Gameplay">
+  <section id="overview" class="section">
+    <div class="container">
+      <h2 class="section-title">Project Overview</h2>
+      
+      <div class="achievement-highlight">
+        <h3>🏆 Led 3-person team to deliver feature-complete RPG prototype with zero critical bugs in 12 weeks</h3>
       </div>
-    <div class="review-text">
-      <h2>state machine:</h2>
-      <ul>
-        <li></li>
-        <li>Freelook state</li>
-        <li>Targeting state</li>
-        <li>Attacking state</li>
-        <li>Blocking state</li>
-      </ul>
+      
+      <div class="project-summary">
+        <div class="summary-grid">
+          <div class="summary-item">
+            <h4>🎮 Concept</h4>
+            <p>Multi-planet RPG exploring <em>"main effect/side effect"</em> gameplay across Tutorial, Sand Planet, and Mars environments</p>
+          </div>
+          <div class="summary-item">
+            <h4>🔧 Technical Focus</h4>
+            <p>AI state machines, persistent progression systems, and modular architecture prioritizing robust functionality</p>
+          </div>
+          <div class="summary-item">
+            <h4>👨‍💼 Leadership Role</h4>
+            <p>Sprint planning, code integration, quality assurance, and cross-team communication</p>
+          </div>
+          <div class="summary-item">
+            <h4>🔗 Repository</h4>
+            <p><a href="https://github.com/Manthan8567/Cosmo-Ranger" target="_blank">GitHub</a> (as @ocampo2001k)<br>
+            <small>Team: @Manthan8567, @sadoyh</small></p>
+          </div>
+        </div>
+      </div>
     </div>
-    
   </section>
 
+  <section id="features" class="section">
+    <div class="container">
+      <h2 class="section-title">Key Technical Contributions</h2>
+      
+      <div class="features-grid">
+        <div class="feature-card">
+          <div class="feature-icon">🤖</div>
+          <h3>AI & Physics</h3>
+          <ul>
+            <li>4-state enemy FSM (Idle, Target, Attack, Block)</li>
+            <li>Ragdoll physics with dynamic death animations</li>
+            <li>EXP/loot drop system on enemy defeat</li>
+            <li><strong>60+ FPS</strong> with multiple active enemies</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🎯</div>
+          <h3>Quest & Progression</h3>
+          <ul>
+            <li>Event-driven quest system with scriptable objectives</li>
+            <li>Singleton EXP Manager for cross-scene persistence</li>
+            <li>Portal unlock gates tied to quest milestones</li>
+            <li>Support for <strong>20+ concurrent objectives</strong></li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">🛠️</div>
+          <h3>Core Systems</h3>
+          <ul>
+            <li>Complete UI/UX: menus, HUD, dialogues, cinematics</li>
+            <li>Dynamic SFX with spatial audio integration</li>
+            <li>Environmental hazards (Sand Planet health system)</li>
+            <li>Modular architecture for reusable components</li>
+          </ul>
+        </div>
+
+        <div class="feature-card">
+          <div class="feature-icon">👥</div>
+          <h3>Team Leadership</h3>
+          <ul>
+            <li>Code integration across multiple Git branches</li>
+            <li>Refactored single-use systems into universal frameworks</li>
+            <li>Comprehensive testing protocols</li>
+            <li><strong>Zero critical bugs</strong> at delivery</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="videoDemo" class="section">
+    <div class="container">
+      <h2 class="section-title">Demo & Results</h2>
+      
+      <div class="demo-section">
+        <div class="video-demo">
+          <h3>📹 Gameplay Demo</h3>
+          <video controls style="max-width: 500px; width: 100%;">
+            <source src="img/Game_demo.mp4" type="video/mp4">
+            <p>Your browser doesn't support video playback. <a href="img/Game_demo.mp4">Download the demo video</a></p>
+          </video>
+          <p><em>Combat system, quest progression, and multi-planet exploration</em></p>
+        </div>
+
+        <div class="results-metrics">
+          <h3>🏆 Project Results</h3>
+          <div class="metrics-grid">
+            <div class="metric">
+              <div class="metric-number">60+</div>
+              <div class="metric-label">FPS Performance</div>
+            </div>
+            <div class="metric">
+              <div class="metric-number">0</div>
+              <div class="metric-label">Critical Bugs</div>
+            </div>
+            <div class="metric">
+              <div class="metric-number">100%</div>
+              <div class="metric-label">Code Integration</div>
+            </div>
+            <div class="metric">
+              <div class="metric-number">3</div>
+              <div class="metric-label">Planetary Environments</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="screenshot-gallery">
+        <img src="img/cosmo_ranger_gameplay.png" alt="Gameplay" style="max-width: 200px;">
+        <img src="img/cosmo_ranger_game2.png" alt="Game Scene" style="max-width: 200px;">
+        <img src="img/combat_photo.png" alt="Combat" style="max-width: 200px;">
+      </div>
+    </div>
+  </section>
 </body>
 </html>

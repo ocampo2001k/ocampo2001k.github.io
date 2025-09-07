@@ -10,99 +10,169 @@
 </head>
 <body>
   <header>
-    <nav>
-        <a href="#projects"><i class="fas fa-laptop"></i> Projects</a>
-        <a href="#skills"><i class="fas fa-cogs"></i> Skills</a>
-        <a href="#contact"><i class="fas fa-envelope"></i> Contact Me</a>
-      </nav>
-    <div id="AboutMe">
-      <h1>Carlos Ocampo</h1>
-      <img src="img/WhatsApp Image 2024-04-23 at 10.45.20 AM.jpeg" width="250px" />
-      <h3>🎮 Welcome to My Portfolio!</h3>
-      <p id="Intro">
-        👋 Hey there! I'm Carlos, a passionate Video Game Developer driven by the desire to create new and innovative experiences.<br />
-        🌟 What excites me most about video games is their power to build communities and provide a safe space for everyone to express themselves, regardless of background or identity. I believe in the transformative potential of games to empower individuals and foster inclusivity, and I'm committed to leading this change.<br />📚 I'm particularly drawn to the deep and meaningful stories that video games can tell. From exploring complex themes of identity and belonging to grappling with moral dilemmas and existential questions, I'm fascinated by the way games can engage players on an emotional and intellectual level. <br>🎮 In my spare time, you'll often find me immersed in games like Stardew Valley, Minecraft, and Valorant. I gravitate towards games that challenge me to think strategically and creatively. 🍽️ Outside of gaming, I'm a dedicated foodie with a taste for adventure. I've explored cuisines from around the globe and am always eager to discover new culinary delights. <br>💻 Fluent in 3 coding languages and bilingual in Spanish and English and I am learning French, I'm ready to bring my skills and passion to the world of game development. <br>🔥 Let's create something amazing together!
-      </p>
+    <nav class="main-nav">
+      <div class="nav-container">
+        <div class="nav-logo">
+          <h2>Carlos Ocampo</h2>
+        </div>
+        <div class="nav-links">
+          <a href="#projects">Projects</a>
+          <a href="#career">Career</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </nav>
+    
+    <div class="hero-section">
+      <div class="hero-content">
+        <div class="profile-image">
+          <img src="img/WhatsApp Image 2024-04-23 at 10.45.20 AM.jpeg" alt="Carlos Ocampo" />
+        </div>
+        <div class="hero-text">
+          <h1>Carlos Ocampo</h1>
+          <h2>Game Developer</h2>
+          <p class="hero-description">
+            Hi there and thanks for stopping by! My name is Carlos, I'm a passionate game developer who finds enjoyment and fulfillment from the journey of creating interactive experiences. I specialize in gameplay programming, AI systems, and team leadership with expertise in Unity, Unreal Engine, and C++/C#.
+          </p>
+        </div>
+      </div>
     </div>
   </header>
 
-  <section id="projects-section">
-  <h2>Projects</h2>
-  <div id="projects">
-    <div class="project">
-      <a href="project1.html">
-        <img src="img/SF Background - Copy.png" alt="Cosmo Ranger">
-        <div class="project-info">
-          <h3>Cosmo Ranger</h3>
-          <p>RPG with thematic in space</p>
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/SF Background - Copy.png" alt="Cosmo Ranger">
+          </div>
+          <div class="project-content">
+            <h3>Cosmo Ranger</h3>
+            <p class="project-type">3D Third-Person RPG • Unity/C#</p>
+            <p class="project-description">Led 3-person team to develop multi-planet RPG with AI state machines, quest systems, and modular architecture. Delivered zero-bug prototype in 12 weeks.</p>
+            <div class="project-tags">
+              <span class="tag">AI Programming</span>
+              <span class="tag">Team Leadership</span>
+              <span class="tag">Unity</span>
+            </div>
+            <a href="project1.html" class="project-link">View Project →</a>
+          </div>
         </div>
-      </a>
-    </div>
-    <div class="project">
-      <a href="project2.html">
-        <img src="img/Captura_de_pantalla_2024-04-16_172339.png" alt="Project 2">
-        <div class="project-info">
-          <h3>Destroy Or Die</h3>
-          <p>Casual game to destroy items</p>
+        
+        <div class="project-card">
+          <div class="project-image">
+            <img src="img/Captura_de_pantalla_2024-04-16_172339.png" alt="Destroy Or Die">
+          </div>
+          <div class="project-content">
+            <h3>Destroy Or Die</h3>
+            <p class="project-type">Third-Person Destruction Arena • Unreal Engine 5</p>
+            <p class="project-description">Dynamic combat arena featuring destructible objects, AI enemies, environmental hazards, and progressive difficulty scaling. Built entirely with Blueprint scripting.</p>
+            <div class="project-tags">
+              <span class="tag">Blueprint Scripting</span>
+              <span class="tag">AI Programming</span>
+              <span class="tag">UE5</span>
+            </div>
+            <a href="project2.html" class="project-link">View Project →</a>
+          </div>
         </div>
-      </a>
-    </div>
-    <!-- Add more project links as needed -->
-  </div>
-</section>
-
-
-  <section id="skills">
-    <h2>Skills</h2>
-    <div class="skills-list">
-      <div class="skill">
-        <h3>Programming Languages</h3>
-        <ul>
-          <li>JavaScript</li>
-          <li>C++</li>
-          <li>Python</li>
-          <li>C#</li>
-          
-          <!-- Add more programming languages as needed -->
-        </ul>
       </div>
-      <div class="skill">
-        <h3>Game Development</h3>
-        <ul>
-          <li>Unity</li>
-          <li>Unreal Engine</li>
-          <li>GameMaker Studio</li>
-          <!-- Add more game development tools/frameworks as needed -->
-        </ul>
-      </div>
-
-      <div class="skill">
-        <h3>Spoken Languages</h3>
-        <ul>
-          <li>Spanish </li>
-          <li>English</li>
-          <li>French</li>
-          <!-- Add more game development tools/frameworks as needed -->
-        </ul>
-      </div>
-      <!-- Add more skill categories as needed -->
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <div class="contact-info">
-      <p>If you'd like to get in touch with me, feel free to reach out via the following methods:</p>
-      <ul>
-        <li>Email: carlosocmapocantillo@gmail.com</li>
-        <li>Phone: +5145572064</li>
-        <li>Social Media:</li>
-        <ul>
-          <li><a href="https://www.linkedin.com/in/carlos-ocampo-cantillo/"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
-          <li><a href="https://github.com/ocampo2001k"><i class="fab fa-github"></i> GitHub</a></li>
-          <!-- Add more social media links as needed -->
-        </ul>
-      </ul>
+
+  <section id="career" class="section">
+    <div class="container">
+      <h2 class="section-title">Career</h2>
+      <div class="career-content">
+        <div class="experience-item">
+          <div class="experience-header">
+            <h3>Student Game Developer</h3>
+            <span class="experience-period">2022 - Present</span>
+          </div>
+          <p class="experience-location">La Salle College • Game Development Program</p>
+          <ul class="experience-details">
+            <li>Led cross-functional teams in developing complete game prototypes from concept to delivery</li>
+            <li>Specialized in gameplay programming, AI systems, and engine optimization</li>
+            <li>Collaborated with artists and designers to implement technical solutions for creative vision</li>
+            <li>Delivered production-quality projects with zero critical bugs under academic deadlines</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-category">
+          <h3>Core Programming</h3>
+          <div class="skill-tags">
+            <span class="skill-tag expert">C#</span>
+            <span class="skill-tag expert">C++</span>
+            <span class="skill-tag intermediate">JavaScript</span>
+            <span class="skill-tag intermediate">Python</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Game Engines</h3>
+          <div class="skill-tags">
+            <span class="skill-tag expert">Unity</span>
+            <span class="skill-tag intermediate">Unreal Engine</span>
+            <span class="skill-tag beginner">GameMaker Studio</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Specializations</h3>
+          <div class="skill-tags">
+            <span class="skill-tag expert">AI Programming</span>
+            <span class="skill-tag expert">Gameplay Systems</span>
+            <span class="skill-tag intermediate">Team Leadership</span>
+            <span class="skill-tag intermediate">Performance Optimization</span>
+          </div>
+        </div>
+        
+        <div class="skill-category">
+          <h3>Languages</h3>
+          <div class="skill-tags">
+            <span class="skill-tag expert">Spanish (Native)</span>
+            <span class="skill-tag expert">English (Fluent)</span>
+            <span class="skill-tag beginner">French (Learning)</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact</h2>
+      <div class="contact-content">
+        <p class="contact-description">
+          I'm always interested in discussing new opportunities, collaborating on projects, or connecting with fellow game developers. Feel free to reach out!
+        </p>
+        <div class="contact-methods">
+          <div class="contact-item">
+            <h4>Email</h4>
+            <a href="mailto:carlosocmapocantillo@gmail.com">carlosocmapocantillo@gmail.com</a>
+          </div>
+          <div class="contact-item">
+            <h4>Phone</h4>
+            <span>+514 557 2064</span>
+          </div>
+          <div class="contact-item">
+            <h4>Professional Links</h4>
+            <div class="social-links">
+              <a href="https://www.linkedin.com/in/carlos-ocampo-cantillo/" target="_blank">LinkedIn</a>
+              <a href="https://github.com/ocampo2001k" target="_blank">GitHub</a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
   
